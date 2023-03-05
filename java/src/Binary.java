@@ -11,14 +11,14 @@ public static void main(String args[]) throws Exception
 	boolean stop=false;
 	String result="";
 	int rem=0;
-	while(stop==false)
+	while(!stop)
 	{
 		if (number==1)
 		{
 			rem=1;
 			result+=Integer.toString(rem);
 			r.sprint(result);
-			System.exit(1);
+			break;
 		}
 		else if(number==0)
 		{
